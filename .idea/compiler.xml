@@ -10,5 +10,8 @@
         <module name="foclassic-mohave-holdem" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="foclassic-mohave-holdem" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
