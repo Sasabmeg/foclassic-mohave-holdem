@@ -16,10 +16,10 @@ public class DrawBetValueText {
         parentNode.attachChild(hudText);
     }
 
-    public static void drawTextBox(Node parentNode, BitmapFont font, Rectangle rectangle, String text, BitmapFont.Align align) {
+    public static void drawTextBox(Node parentNode, BitmapFont font, Rectangle rectangle, String text, ColorRGBA color, BitmapFont.Align align) {
         BitmapText hudText = new BitmapText(font, false);
         hudText.setSize(font.getCharSet().getRenderedSize());      // font size
-        hudText.setColor(ColorRGBA.fromRGBA255(98, 217, 62, 255));                             // font color
+        hudText.setColor(color);                             // font color
         hudText.setText(text);             // the text
         //hudText.setLocalTranslation(x, y + hudText.getLineHeight(), 0); // position
         hudText.setBox(rectangle);

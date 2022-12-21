@@ -1,0 +1,20 @@
+{
+    "guiElements": [
+        {
+            "name": "table-base",
+            "type": "image",
+            "image": "table-mojave-base.png",
+            "x": 0, "y": 0, "w": 800, "h": 600
+        },
+        {
+            "name": "betValue",
+            "type": "text",
+            "x": 404, "y": 22, "w": 85, "h": 14
+        },
+        {
+            "name": "betValue",
+            "type": "text",
+            "x": 404, "y": 22, "w": 85, "h": 14
+        }
+    ]
+}
